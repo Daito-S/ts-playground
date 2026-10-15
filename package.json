@@ -4,11 +4,11 @@
   "private": true,
   "type": "module",
   "scripts": {
-  "dev": "tsx watch",
-  "build": "tsc",
-  "typecheck": "tsc --noEmit",
-  "test": "vitest",
-  "test:run": "vitest run"
+    "dev": "tsx watch",
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest",
+    "test:run": "vitest run"
   },
   "devDependencies": {
     "@types/node": "24.13.6",
@@ -16,5 +16,8 @@
     "typescript": "6.0.3",
     "vite": "8.3.0",
     "vitest": "5.0.1"
+  },
+  "dependencies": {
+    "dayjs": "1.11.23"
   }
 }
